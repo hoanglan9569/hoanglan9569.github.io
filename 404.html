@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page not found</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        var path = location.pathname;
+        if (path === '/agentic-qa' || path.indexOf('/agentic-qa/') === 0) {
+          location.replace('https://releaseworthy.github.io' + path + location.search + location.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Page not found.</p>
+  </body>
+</html>
